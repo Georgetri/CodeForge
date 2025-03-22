@@ -1,0 +1,77 @@
+1. Distância de Manhattan
+Problema:
+Em uma matriz, cada célula contém um número. O objetivo é calcular a distância de Manhattan de um ponto até outro, onde o movimento pode ser apenas para as direções horizontais e verticais.
+Fórmula da Distância de Manhattan:
+d = |x2 - x1| + |y2 - y1|
+Onde:
+(x1, y1) e (x2, y2) são as coordenadas dos dois pontos.
+
+2. Equação da Circunferência
+Problema:
+Dada uma matriz com um ponto central, o objetivo é identificar quais pontos na matriz estão dentro de uma circunferência de raio r em torno do ponto central.
+Fórmula da Circunferência:
+(x - h)^2 + (y - k)^2 ≤ r^2
+Onde:
+(h, k) é o centro da circunferência,
+r é o raio da circunferência,
+(x, y) são as coordenadas dos pontos na matriz.
+
+3. Média Aritmética em uma Matriz
+Problema:
+Você tem uma matriz N×N de números. O objetivo é calcular a média aritmética de todos os números na matriz.
+Fórmula da Média Aritmética:
+Média = (∑ i=1 N ∑ j=1 N matriz[i][j]) / N^2
+Onde:
+∑∑ é a soma dos elementos da matriz.
+
+4. Cálculo da Área de um Triângulo (Usando Determinantes)
+Problema:
+Dada uma matriz que representa um triângulo com seus vértices nas coordenadas (x1, y1), (x2, y2), e (x3, y3), calcule a área do triângulo.
+Fórmula da Área (Determinante):
+Área = 1/2 | x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2) |
+
+5. Cálculo de Determinante de uma Matriz 2x2
+Problema:
+Dada uma matriz 2×2, calcule o determinante da matriz.
+Fórmula do Determinante de uma Matriz 2x2:
+determinante = (a × d) - (b × c)
+Onde:
+Para a matriz [ a b ]
+                [ c d ]
+
+6. Resolução de Sistemas Lineares (Método de Substituição ou Eliminação)
+Problema:
+Dado um sistema linear de equações, como:
+a1x + b1y = c1
+a2x + b2y = c2
+O objetivo é encontrar os valores de x e y usando o método de substituição ou eliminação.
+Fórmula de Substituição:
+x = (c1 - b1y) / a1
+
+7. Soma dos Quadrados (Método de Minimização)
+Problema:
+Em um problema de ajuste de curvas, você tem uma função y = f(x) e um conjunto de pontos (xi, yi). O objetivo é minimizar a soma dos quadrados das diferenças entre os valores observados yi e os valores previstos f(xi).
+Fórmula da Soma dos Quadrados:
+S = ∑ i=1 n (yi - f(xi))^2
+
+8. Perímetro de um Polígono Convexo
+Problema:
+Dado um conjunto de pontos que formam um polígono convexo, calcule o perímetro do polígono. As coordenadas dos vértices estão armazenadas em uma matriz.
+Fórmula do Perímetro:
+P = ∑ i=1 n-1 ((xi - xi+1)^2 + (yi - yi+1)^2) + (xn - x1)^2 + (yn - y1)^2
+Onde:
+(xi, yi) são as coordenadas dos vértices do polígono.
+
+9. Aproximação de Integral (Método de Trapézio)
+Problema:
+Dada uma função f(x), calcule a integral definida usando o método dos trapézios.
+Fórmula do Método dos Trapézios:
+I ≈ h / 2 ( f(x0) + 2 ∑ i=1 n-1 f(xi) + f(xn) )
+Onde:
+h é a largura de cada subintervalo.
+
+10. Cálculo de Distância entre Dois Pontos no Plano 3D
+Problema:
+Em um espaço tridimensional, calcule a distância entre dois pontos (x1, y1, z1) e (x2, y2, z2).
+Fórmula da Distância no Plano 3D:
+d = √((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2)
