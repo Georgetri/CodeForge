@@ -1,4 +1,4 @@
-package listas_pilhas_filas;
+package estrutura_dados.listas;
 /* Dada uma lista de inteiros, remova todos os números duplicados. Você pode usar um ArrayList ou LinkedList.
 Após remover os duplicados, a lista deve manter a ordem dos elementos originais.
 Métodos úteis: contains(), add(), remove(), set(), hashSet().*/
