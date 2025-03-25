@@ -1,4 +1,4 @@
-package listas_pilhas_filas;
+package estrutura_dados.listas;
 
 import java.util.ArrayList;
 import java.util.List;
